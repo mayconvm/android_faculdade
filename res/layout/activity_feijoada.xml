@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Feijoada">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="436dp"
+        android:layout_height="208dp"
+        app:srcCompat="@mipmap/fj2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:text="                                        INGREDIENTES \n\n
+
+* 1 Kg de feijão preto \n
+* 100 g de carne seca \n
+* 70 g de orelha de porco \n
+* 70 g de rabo de porco \n
+* 70 g de pé de porco \n
+* 100 g de costelinha de porco \n
+* 50 g de lombo de porco \n
+* 100 g de paio \n
+* 150 g de lingüiça portuguesa
+
+\n\n\n
+
+                                        MODO DE PREPARO \n\n
+
+* Coloque as carnes de molho por 36 horas ou mais, vá trocando a água várias vezes, se for ambiente quente ou verão, coloque gelo por cima ou em camadas frias \n
+* Coloque para cozinhar passo a passo: as carnes duras, em seguida as carnes moles \n
+* Quando estiver mole coloque o feijão, e retire as carnes \n
+* Finalmente tempere o feijão \n
+" />
+
+</LinearLayout>
